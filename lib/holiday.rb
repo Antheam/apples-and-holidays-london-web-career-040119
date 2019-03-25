@@ -63,7 +63,6 @@ def all_supplies_in_holidays(holiday_hash)
 holiday_hash.each do |key, data|
  puts "#{key.capitalize}:"
 end
-holiday_hash
 end
 
 def all_holidays_with_bbq(holiday_hash)
